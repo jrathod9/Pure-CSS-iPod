@@ -1,0 +1,77 @@
+body{
+	font-family: calibri;
+	color: black;
+	font-weight: bold;
+	background-color: #abcdef;
+
+}
+
+.box{
+	width: 200px;
+	height: 475px;
+	background-color: white;
+}
+#selected{
+	background-color: blue;
+	color: white;
+	animation: change 1s infinite;
+}
+
+#frame{
+ margin: 5% 45%;
+ border:solid #afaba2 1.5px;
+ background-color: #c3bfb5;
+ box-shadow: 0 0 30px;
+
+
+}
+
+#screen{
+	margin:auto auto;
+	background-color: #e7e5e1; 
+	width: 160px;
+	height: 125px;
+	border: solid black 3px;
+	border-radius: 4%;
+	
+}
+
+#outer{
+	border-radius: 50%;
+	height: 170px;
+	width: 170px;
+	margin: 30% auto;
+	border: solid #afaba2 1.25px;
+}
+
+#inner{
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+	margin: -33% auto;
+	border: solid #afaba2 1.25px;
+}
+
+#rewind{
+margin: 5% 5%;
+color: #cecbc3;
+}
+
+#forward{
+	margin: -16% 80%;
+	color: #cecbc3;
+}
+
+#pause{
+	margin: 39% auto;
+	
+}
+
+@keyframes change{
+	50%{
+		background-color: #e7e5e1;
+		color: black;
+	}
+
+}
+
