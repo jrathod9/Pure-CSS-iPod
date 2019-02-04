@@ -3,7 +3,7 @@ body{
 	color: black;
 	font-weight: bold;
 	background-color: #abcdef;
-
+  border-radius: 5%;
 }
 
 .box{
@@ -11,18 +11,24 @@ body{
 	height: 475px;
 	background-color: white;
 }
-#selected{
+
+.selected:hover{
+   background-color: blue;
+	color: white;  
+  } 
+}
+.selected{
 	background-color: blue;
 	color: white;
-	animation: change 1s infinite;
+/* 	animation: change 1s infinite; */
 }
 
 #frame{
  margin: 5% 45%;
+ border-radius: 10px;
  border:solid #afaba2 1.5px;
  background-color: #c3bfb5;
- box-shadow: 0 0 30px;
-
+ box-shadow: 0 0 20px #abcdef;
 
 }
 
